@@ -1,0 +1,26 @@
+Some brainstormed benchmarks. Making these rigorous will be interesting.
+--
+
+Should be able to see "aberrant" proteins even if they phologenetically cluster with apparently non-aberrant proteins.
+
+("Aberrant" proteins might be recognizable by external evidence, like the lack of obligate domains combined with transition to a pathogenic host; or by internal evidence we might mask, such as a nonfunctional catalytic region.)
+
+Should be able to see transmembrane or signal-peptide induced false hits to Pfam families even if the false hits don't form a phylogenetic cluster with each other.
+
+Should be able to visually distinguish changes to highly conserved residues that result in a nonfunctional protein from (what outside evidence suggests are) spurious changes to highly conserved residues.
+
+Should be possible to see adaptation to a basic/acidic/hot environment.
+
+Should be easy to see a lineage expansion.
+
+Should be easy to identify sequence features characteristic of certain branches on the tree of life.
+
+Should be easy to see changes to the locus of selection pressure.
+
+Should be easy to see changes to type of selection pressure.
+
+Should be easy to visualize relaxation of selection pressure after a loss or change of function of the protein.
+
+Should be easy to recognize the independent origin of 2 different loop insertions that occur at the same site at different times.
+
+Should be possible to visually distinguish "patterned regions" (like signal peptides) from globular region of protein. (It's one thing to say that an suitable algorithm should find these regions; it's another to say they should be *visible*)
