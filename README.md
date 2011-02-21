@@ -1,4 +1,4 @@
-Setting up python environment:
+### Setting up python environment:
 
 * `virtualenv -p /opt/local/bin/python2.7 pyseq`
 * `cd pythonlab`
@@ -9,15 +9,15 @@ Setting up python environment:
 * `pip install numpy`
 * `pip install couchdb`
 * `pip install --upgrade -f file:///Users/rklancer/dev/seqtime/pyseq/matplotlib-1.0.1.tar.gz matplotlib`
-* install biopython from source (easy_install is not recommended, and didn't work for me):
+* install biopython from source (easy_install is not recommended, and didn't work for me)
 
-    tar xfvz biopython-1.56.tar.gz
-    cd biopython-1.56
-    python setup.py build
-    python setup.py test
-    python setup.py install  # 'sudo' not required b/c of virtualenv
+        tar xfvz biopython-1.56.tar.gz
+        cd biopython-1.56
+        python setup.py build
+        python setup.py test
+        python setup.py install  # no 'sudo' required
 
-* sanity check:   
+* sanity check:
 
-    ipython -pylab
-    from Bio import *
+        ipython -pylab
+        from Bio import *
